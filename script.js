@@ -21,11 +21,21 @@
 //     delay:1 
 // })
 
-gsap.from("h1",{
-    // color:"crimson",
-    opacity:0,
-    duration:2,
-    y:30,
-    delay:1,
-    stagger: 0.3,
+// gsap.from("h1",{
+//     // color:"crimson",
+//     opacity:0,
+//     duration:2,
+//     y:30,
+//     delay:1,
+//     stagger: 0.3,
+// })
+
+gsap.to("#box",{
+    x:1200,
+    duration:1,
+    delay: 1,
+    rotate:360,
+    repeat: -1,
+    yoyo:true,
+
 })
