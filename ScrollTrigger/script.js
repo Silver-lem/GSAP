@@ -18,7 +18,10 @@ gsap.from("#page2 #box",{
         scroller:"body",
         markers:true,
         start:"top 60%",
-        end:"top 10%" 
+        end:"top 30%",
+        // scrub:true
+        scrub:2,
+        pin:true,
     }
 
 })
