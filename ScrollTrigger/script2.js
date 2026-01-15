@@ -7,6 +7,7 @@ gsap.from("#page2 h1",{
         scroller:"body",
         markers:true,
         start:"top 50%"
+        
     }
 })
 
@@ -19,5 +20,6 @@ gsap.from("#page2 h2",{
         scroller:"body",
         markers:true,
         start:"top 50%"
+        
     }
 })

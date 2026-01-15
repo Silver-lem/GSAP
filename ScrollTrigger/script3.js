@@ -5,8 +5,8 @@ gsap.to("#page2 h1",{
         scroller:"body",
         markers:true,
         start:"top 0%",
-        end:"top -100%",
+        end:"top -150%",
         scrub:2,
-        pin:true,
+        pin:true,//when using pin ensure the parent is triggered
     }
 })
